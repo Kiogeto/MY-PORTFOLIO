@@ -1,3 +1,4 @@
+
 .i{
     display: flex;
     height: 100vh;
@@ -17,8 +18,8 @@
     position: relative;
 }
 .i-left-wrapper{
-    padding: 15px;
-    height: 60%;
+    padding: 20px;
+    height: 70%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -45,7 +46,7 @@
     color: white;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 4px 12px 13px green;
+    box-shadow: 4px 12px 13px blue;
 }
 @media (max-width: 768px) {
     .name{
@@ -57,7 +58,7 @@
     .i-desc{
         font-size: 15px;
     }
-    .i-title-wrapper{
+    .i-title-item{
         font-size: 10px;
     }
     
@@ -72,7 +73,7 @@
 }
 .i-title-wrapper{
     height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: move 15s ease-in-out infinite alternate;
 }
 @keyframes move{
     25%{
@@ -90,11 +91,11 @@
 }
 
 .i-title-item{
-    padding: 7px;
-    height: 50px;
-    font-size: 30px;
-    font-weight: bold;
-    color: orangered;
+    padding: 10px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(40, 8, 218);
     background-color: white;
     display: flex;
     align-items: center;

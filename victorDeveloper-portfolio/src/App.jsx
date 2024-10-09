@@ -1,4 +1,5 @@
 import Intro from "./Components/intro/Intro";
+import About from "./Components/About/About";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Intro/>
+      <About/>
     </>
       
   );
