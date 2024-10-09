@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Intro/>
+      <Intro/><br/><br/><br/>
       <About/>
     </>
       
