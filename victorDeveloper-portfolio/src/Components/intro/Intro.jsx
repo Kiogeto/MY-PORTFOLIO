@@ -1,5 +1,5 @@
 import './Intro.css'
-import victor from "../../assets/victor.jpg"
+import victor from "../../assets/viki.jpg"
 
 function Intro(){
 
@@ -19,16 +19,18 @@ function Intro(){
                             <div className="i-title-item">System Developer</div>
                         </div>
                     </div>
-                    <div className="i-desc">
+                    <p className="i-desc">
+                        
                     Hello, I am a developer specializing in creating dynamic, user-friendly web applications. 
                     With expertise in PHP, JavaScript, and database integration, I deliver responsive designs,
                     modular code, and innovative solutions that meet client needs and ensure a professional,
                      feature-rich experience.
-                    </div>
+                    </p>
                 </div>
             </div>
             
             <div className="i-right">
+                <div className="i-bg"></div>
                 <img src={victor} className="i-img"></img>
             </div>
         </div>
