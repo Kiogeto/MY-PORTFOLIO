@@ -1,0 +1,14 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: aquamarine;
+    position: absolute;
+}
+.c-left{
+    flex: 1;}
+.c-right{
+    flex: 1;}
